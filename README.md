@@ -1,0 +1,1 @@
+This project involves generating images using the Stable Diffusion model, followed by image processing to extract specific elements. It includes creating a video with synchronized text overlays and generating speech from text descriptions using pyttsx3. The project emphasizes AI in multimedia applications.
