@@ -12,6 +12,42 @@ import pyttsx3
 from pydub import AudioSegment
 from moviepy.editor import concatenate_audioclips, AudioFileClip
 
+#GENERATION OF IMAGES
+#import time
+#import keras_cv
+#import keras
+#import os as os2
+#import cv2
+#from matplotlib import pyplot as plt
+
+#model = keras_cv.models.StableDiffusion(
+#    img_width=512, img_height=512, jit_compile=False
+#)
+
+#images = model.text_to_image("image with a black refrigerator and in the background a supermarket", batch_size=3)
+
+#def plot_images(images):
+    #plt.figure(figsize=(20, 20))
+    #for i in range(len(images)):
+        #ax = plt.subplot(1, len(images), i + 1)
+        #plt.imshow(images[i])
+        #plt.axis("off")
+
+#plot_images(images)
+
+# Obtain the path to the desktop directory
+#desktop_path = os2.path.join(os2.path.join(os2.environ['USERPROFILE']), 'Desktop')
+
+# Create a folder named "tema2" on the desktop if it doesn't exist
+#tema2_path = os2.path.join(desktop_path, 'tema2')
+#if not os2.path.exists(tema2_path):
+ #   os2.makedirs(tema2_path)
+
+# Iterate through the images and save them on the desktop
+#for i, image in enumerate(images):
+ #   image_path = os2.path.join(tema2_path, f"{i+1}.png")  # Use the index to create unique filenames
+  #  cv2.imwrite(image_path, cv2.cvtColor(images[i], cv2.COLOR_RGB2BGR))
+
 
 # cream imaginile care vor porni de la cea originala
 imagine = cv2.imread('C:/Users/Violeta/Desktop/Mihai_Violeta_333AA/image.png')
